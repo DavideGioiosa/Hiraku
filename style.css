@@ -1,0 +1,660 @@
+.station {
+  width: 630px;
+  height: 80px;
+  background-color: blue;
+  display: inline-flex;
+}
+
+.loop-station {
+  width: 330px;
+  height: 80px;
+  background-color: #3385ff;
+  
+}
+
+.twitter-station {
+  width: 300px;
+  height: 80px;
+  background-color: #4d4dff;
+  display: inline-flex;
+}
+
+.progress {
+  width: 630px;
+  height: 40px;
+  background-color: #8080ff;
+  border-radius: 10px;
+  border-style: solid;
+  border-color: black;
+  display: inline-flex;
+}
+
+.bpm {
+  background-color: darkslategrey;
+  width: 30px;
+  height: 30px;
+  border-radius: 25%;
+  border-style: solid;
+  border-color: black;
+  position: relative;
+  top: 2px;
+  margin-left: 2.5px;
+  margin-right: 2.5px;
+}
+
+.active-bpm {
+  background-color: #1AFF01;
+}
+
+.active-bpm-first {
+  background-color: blue;
+}
+
+.active-bpm-rec {
+  background-color: red;
+}
+
+/*Conteiner of the keyboard struct*/
+.keyboard-container {
+  width: 630px;
+  height: 400px;
+  background-color: yellow;
+  display: inline-flex;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+/*Conteiner of the two keyboards*/
+.keyboard {
+  width: 500px;
+  height: 400px;
+  background-color: brown;
+  position: relative;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+/*Border of the kb*/
+.keyboard-border {
+  width: 65px;
+  height: 400px;
+  background-color: #1f2e2e;
+  position: relative;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+.keyboard1 {
+  width: 500px;
+  height: 200px;
+  background-color: lightblue;
+  position: relative;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+.keyboard2 {
+  width: 500px;
+  height: 200px;
+  background-color: yellow;
+  position: relative;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+/*Container of white&black octave*/
+.section-key {
+  width: 500px;
+  height: 100px;
+  background-color: red;
+  display: inline-flex;
+}
+
+.square-rec {
+  width: 80px;
+  height: 80px;
+  background-color: #1f2e2e;
+  position: relative;
+}
+
+.circle {
+  width: 50px;
+  height: 50px;
+  position: relative;
+  display: inline-flex;
+  border-radius: 50%;
+  background-color: black;
+  margin-left: 1%;
+  margin-right: 1%;
+  border-style: solid;
+  border-color: orange;
+}
+
+.black-circle{
+  position: relative;
+  transform:translate(-50%,-50%);
+}
+
+.bc-first {
+  left: 39%;
+  top: 50%;
+}
+
+.bc-second {
+  left: 22%;
+  top: 50%;
+}
+
+.white-circle {
+  transform:translate(-50%,-50%);
+  top: 50%;
+  left: 10%;
+  background-color: white;
+}
+
+.black-box {
+  width: 500px;
+  height: 100px;
+  display: inline-flex;
+  background-color:red; /*to delate*/
+}
+
+.first-bb {
+  width: 221px;
+  height: 100px;
+  background-color: #0B729F;
+}
+
+.second-bb {
+  width: 279px;
+  height: 100px;
+  background-color: #0B729F;
+                /* #7CB3CB;*/
+}
+
+
+.white-box {
+  width: 500px;
+  height: 100px;
+  background-color: #235469;
+  display: inline-flex;
+}
+
+
+
+.clicked {
+  background-color: #B22222;
+}
+
+.grey-note {
+  background-color: #999966;
+  border-color: #7a7a52;
+}
+
+/*#button-rec {
+  width: 80px;
+  height: 80px;
+}*/
+
+.button-container {
+  border: 4px solid #fff;
+  border-radius: 50%;
+  width: 72px;
+  height: 72px;
+  position: relative;
+}
+
+.button-rec {
+  background-color: #cc0000;
+  text-align: center;
+  display: block;
+  border-radius: 50%;
+  width: 57.6px;
+  height: 57.664px;
+  margin: 8px auto 0 auto;
+  cursor: pointer;
+  border:none;
+  outline:none;
+  transition: all 0.3s cubic-bezier(0.6, -0.28, 0.735, 0.045);
+}
+
+.button-rec:hover {
+  background-color: red;
+}
+
+.square-rec-clicked {
+  background-color: red;
+  width: 38.4px;
+  height: 38.4px;
+  margin: 18.6px auto 0 auto;
+  border-radius: 5px;
+  transition: all 0.3s cubic-bezier(0.6, -0.28, 0.735, 0.045);
+}
+
+#button-play {
+  width: 200px;
+  height: 37px;
+}
+
+.octave-up {
+  position: relative;
+  top: -73.5px;
+  left: 200px;
+  width: 88px;
+  height: 37px;
+}
+
+.octave-down {
+  position: relative;
+  top: -37px;
+  left: 108px;
+  width: 88px;
+  height: 37px;
+}
+
+.resp-sharing-button__link,
+.resp-sharing-button__icon {
+  display: inline-block
+}
+
+.resp-sharing-button__link {
+  text-decoration: none;
+  color: #fff;
+  margin: 0.5em
+}
+
+.resp-sharing-button {
+  border-radius: 5px;
+  transition: 25ms ease-out;
+  padding: 0.5em 0.75em;
+  font-family: Helvetica Neue,Helvetica,Arial,sans-serif
+}
+
+.resp-sharing-button__icon svg {
+  width: 1em;
+  height: 1em;
+  margin-right: 0.4em;
+  vertical-align: top
+}
+
+.resp-sharing-button--small svg {
+  margin: 0;
+  vertical-align: middle
+}
+
+/* Non solid icons get a stroke */
+.resp-sharing-button__icon {
+  stroke: #fff;
+  fill: none
+}
+
+/* Solid icons get a fill */
+.resp-sharing-button__icon--solid,
+.resp-sharing-button__icon--solidcircle {
+  fill: #fff;
+  stroke: none
+}
+
+.resp-sharing-button--twitter {
+  background-color: #55acee
+}
+
+.resp-sharing-button--twitter:hover {
+  background-color: #2795e9
+}
+
+.resp-sharing-button--pinterest {
+  background-color: #bd081c
+}
+
+.resp-sharing-button--pinterest:hover {
+  background-color: #8c0615
+}
+
+.resp-sharing-button--facebook {
+  background-color: #3b5998
+}
+
+.resp-sharing-button--facebook:hover {
+  background-color: #2d4373
+}
+
+.resp-sharing-button--tumblr {
+  background-color: #35465C
+}
+
+.resp-sharing-button--tumblr:hover {
+  background-color: #222d3c
+}
+
+.resp-sharing-button--reddit {
+  background-color: #5f99cf
+}
+
+.resp-sharing-button--reddit:hover {
+  background-color: #3a80c1
+}
+
+.resp-sharing-button--google {
+  background-color: #dd4b39
+}
+
+.resp-sharing-button--google:hover {
+  background-color: #c23321
+}
+
+.resp-sharing-button--linkedin {
+  background-color: #0077b5
+}
+
+.resp-sharing-button--linkedin:hover {
+  background-color: #046293
+}
+
+.resp-sharing-button--email {
+  background-color: #777
+}
+
+.resp-sharing-button--email:hover {
+  background-color: #5e5e5e
+}
+
+.resp-sharing-button--xing {
+  background-color: #1a7576
+}
+
+.resp-sharing-button--xing:hover {
+  background-color: #114c4c
+}
+
+.resp-sharing-button--whatsapp {
+  background-color: #25D366
+}
+
+.resp-sharing-button--whatsapp:hover {
+  background-color: #1da851
+}
+
+.resp-sharing-button--hackernews {
+background-color: #FF6600
+}
+.resp-sharing-button--hackernews:hover, .resp-sharing-button--hackernews:focus {   background-color: #FB6200 }
+
+.resp-sharing-button--vk {
+  background-color: #507299
+}
+
+.resp-sharing-button--vk:hover {
+  background-color: #43648c
+}
+
+.resp-sharing-button--twitter {
+  background-color: #55acee;
+  border-color: #55acee;
+}
+
+.resp-sharing-button--twitter:hover,
+.resp-sharing-button--twitter:active {
+  background-color: #2795e9;
+  border-color: #2795e9;
+}
+
+
+/*Radio button CSS*/
+/*
+.container {
+  position: relative;
+  padding-left: 20px;
+  margin-bottom: 12px;
+  cursor: pointer;
+  font-size: 16px;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}*/
+
+/*Bank Record Selector*/
+
+/* The container must be positioned relative: */
+.custom-select {
+  position: relative;
+  font-family: Arial;
+}
+
+.custom-select select {
+  display: none; /*hide original SELECT element: */
+}
+
+.select-selected {
+  background-color: #bfbfbf;
+}
+
+/* Style the arrow inside the select element: */
+.select-selected:after {
+  position: absolute;
+  content: "";
+  top: 14px;
+  right: 10px;
+  width: 0;
+  height: 0;
+  border: 6px solid transparent;
+  border-color: #fff transparent transparent transparent;
+}
+
+/* Point the arrow upwards when the select box is open (active): */
+.select-selected.select-arrow-active:after {
+  border-color: transparent transparent #fff transparent;
+  top: 7px;
+}
+
+/* style the items (options), including the selected item: */
+.select-items div,.select-selected {
+  color: #ffffff;
+  padding: 8px 16px;
+  border: 1px solid transparent;
+  border-color: transparent transparent rgba(0, 0, 0, 0.1) transparent;
+  cursor: pointer;
+}
+
+/* Style items (options): */
+.select-items {
+  position: absolute;
+  background-color: #bfbfbf;
+  top: 100%;
+  left: 0;
+  right: 0;
+  z-index: 99;
+}
+
+/* Hide the items when the select box is closed: */
+.select-hide {
+  display: none;
+}
+
+.select-items div:hover, .same-as-selected {
+  background-color: rgba(0, 0, 0, 0.1);
+}
+
+/* Samples Radio Button */
+
+/* The container */
+.firebase-Samples{
+  width: 100px;
+  height: 227px;
+  background-color: lightblue
+
+}
+
+.containerRB {
+    display: block;
+    position: relative;
+    padding-left: 35px;
+    margin-bottom: 12px;
+    cursor: pointer;
+    font-size: 16px;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+/* Hide the browser's default radio button */
+.containerRB input {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+}
+
+/* Create a custom radio button */
+.checkmark {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 25px;
+    width: 25px;
+    background-color: #eee;
+    border-radius: 50%;
+}
+
+/* On mouse-over, add a grey background color */
+.containerRB:hover input ~ .checkmark {
+    background-color: #ccc;
+}
+
+/* When the radio button is checked, add a blue background */
+.containerRB input:checked ~ .checkmark {
+    background-color: #2196F3;
+}
+
+/* Create the indicator (the dot/circle - hidden when not checked) */
+.checkmark:after {
+    content: "";
+    position: absolute;
+    display: none;
+}
+
+/* Show the indicator (dot/circle) when checked */
+.containerRB input:checked ~ .checkmark:after {
+    display: block;
+}
+
+/* Style the indicator (dot/circle) */
+.containerRB .checkmark:after {
+ 	top: 9px;
+	left: 9px;
+	width: 8px;
+	height: 8px;
+	border-radius: 50%;
+	background: white;
+}
+
+
+
+/* Search User Bar */
+
+.search-User{
+  display: block;
+  width: 200px;
+  height: 80px;
+  background-color: #3399ff;
+  
+  padding-left: 35px;
+  padding-top: 20px;
+  cursor: pointer;
+  
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+
+/*********CSS LOOP*******************/
+
+#loop-container {
+  position: relative;
+  left: 150px;
+  top: -200px;
+  width: 400px;
+  height: 100px;
+  background-color: blue;
+  display: inline-flex;
+  font-family: "Helvetica", sans-serif;
+}
+
+#check {
+  position: relative;
+  border-radius: 3px;
+  left: 65px;
+  top: 28.3px;
+  width: 40px;
+  height: 40px;
+}
+
+/*
+html, body {
+  background-color: #333;
+}*/
+
+div.container {
+  position: relative;
+  /*margin: 34px auto;*/
+  top: 30px;
+  left: 30px;
+  width: 260px;
+  background-color: transparent;
+}
+
+div.dropdown {
+  position: relative;
+}
+
+div.dropdown > div.caption {
+  background-color: #f2f2f2;
+  padding: 11px 24px;
+  border-radius: 3px;
+  /*cursor: pointer;*/
+}
+
+div.dropdown > div.list {
+  position: absolute;
+  background-color: #f2f2f2;
+  width: 100%;
+  border-radius: 0 0 3px 3px;
+  display: none;
+}
+
+div.dropdown > div.list > div.link-loop {
+  padding: 11px 24px;
+  /*cursor: pointer;*/
+}
+
+div.dropdown > div.list > div.link-loop.selected {
+  font-weight: bold;
+}
+
+div.dropdown > div.caption:hover,
+div.dropdown > div.list > div.link-loop:hover {
+  background-color: rgb(83, 161, 214);
+  color: #fff;
+}
+
+div.dropdown.open > div.caption {
+  border-radius: 3px 3px 0 0;
+  border-bottom: solid 1px #999;
+}
+
+div.dropdown.open > div.list {
+  display: block;
+}
