@@ -582,7 +582,7 @@ background-color: #FF6600
 
 /*********CSS LOOP*******************/
 
-#loop-container {
+#loop-id-container {
   position: relative;
   left: 150px;
   top: -200px;
@@ -607,7 +607,7 @@ html, body {
   background-color: #333;
 }*/
 
-div.container {
+div.loop-class-container {
   position: relative;
   /*margin: 34px auto;*/
   top: 30px;
@@ -616,18 +616,18 @@ div.container {
   background-color: transparent;
 }
 
-div.dropdown {
+div.loop-dropdown {
   position: relative;
 }
 
-div.dropdown > div.caption {
+div.loop-dropdown > div.loop-caption {
   background-color: #f2f2f2;
   padding: 11px 24px;
   border-radius: 3px;
   /*cursor: pointer;*/
 }
 
-div.dropdown > div.list {
+div.loop-dropdown > div.loop-list {
   position: absolute;
   background-color: #f2f2f2;
   width: 100%;
@@ -635,26 +635,56 @@ div.dropdown > div.list {
   display: none;
 }
 
-div.dropdown > div.list > div.link-loop {
+div.loop-dropdown > div.loop-list > div.link-loop {
   padding: 11px 24px;
   /*cursor: pointer;*/
 }
 
-div.dropdown > div.list > div.link-loop.selected {
+div.loop-dropdown > div.loop-list > div.link-loop.selected {
   font-weight: bold;
 }
 
-div.dropdown > div.caption:hover,
-div.dropdown > div.list > div.link-loop:hover {
+div.loop-dropdown > div.loop-caption:hover,
+div.loop-dropdown > div.loop-list > div.link-loop:hover {
   background-color: rgb(83, 161, 214);
   color: #fff;
 }
 
-div.dropdown.open > div.caption {
+div.loop-dropdown.open > div.loop-caption {
   border-radius: 3px 3px 0 0;
   border-bottom: solid 1px #999;
 }
 
-div.dropdown.open > div.list {
+div.loop-dropdown.open > div.loop-list {
   display: block;
+}
+
+#overlay {
+  position: fixed; /* Sit on top of the page content */
+  display: none; /* Hidden by default */
+  width: 100%; /* Full width (cover the whole page) */
+  height: 100%; /* Full height (cover the whole page) */
+  top: 0; 
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0,0,0,0.5); /* Black background with opacity */
+  z-index: 2; /* Specify a stack order in case you're using a different order for other elements */
+}
+
+#myProgress {
+  position: relative;
+  transform: translate(0%,-50%);
+  top: 50%;
+  width: 100%;
+  background-color: #ddd;
+}
+
+#myBar {
+  width: 0%;
+  height: 30px;
+  background-color: #4CAF50;
+  text-align: center;
+  line-height: 30px;
+  color: white;
 }

@@ -1,3 +1,7 @@
+/* eslint no-unused-vars: 0 */
+/* eslint no-console: 0 */
+/* eslint no-undef: 0 */	
+
 //Model
 var font_gates = [];
 var gates = [];
@@ -47,7 +51,7 @@ var idUser = 1;
 var previousNote = [];
 var previousFreq = [];
 
-var recordedMessage = {}  //bank registered messages
+var recordedMessage = {};  //bank registered messages
 var tweetMessage = ["", "", "", ""]; //bank registered messages ready to be sended to Twitter
 
 //change octave boolean
@@ -60,8 +64,6 @@ var octaveWhereIAm = [];
 //hashmap frequency-notes
 var map = { 0: "Pause", 261.626: "C", 277.183: "C#", 293.665: "D", 311.127: "Eb", 329.628: "E", 349.228: "F", 369.994: "F#", 391.995: "G", 415.305: "Ab", 440: "A", 466.164: "Bb", 493.883: "B", 523.251: "C", 554.365: "C#", 587.33: "D", 622.254: "Eb", 659.255: "E", 698.456: "F", 739.989: "F#", 783.991: "G", 830.609: "Ab", 880: "A", 932.328: "Bb", 987.767: "B" };
 
-//hashmap notes-frequency
-var map2 = { "Pause": 0, "C": 261.626, "C#": 277.183, "D": 293.665, "Eb": 311.127, "E": 329.628, "F": 349.228, "F#": 369.994, "G": 391.995, "Ab": 415.305, "A": 440, "Bb": 466.164, "B": 493.883, "C": 523.251, "C#": 554.365, "D": 587.33, "Eb": 622.254, "E": 659.255, "F": 698.456, "F#": 739.989, "G": 783.991, "Ab": 830.609, "A": 880, "Bb": 932.328, "B": 987.767 };
 
 //hashmap notes-index
 var numberMap = { "C": 0, "C#": 1, "D": 2, "Eb": 3, "E": 4, "F": 5, "F#": 6, "G": 7, "Ab": 8, "A": 9, "Bb": 10, "B": 11 };
@@ -224,10 +226,6 @@ createProgressBar();
 //add value octave in parameters
 function getNoteFromFreq(f){
   return map[f];
-}
-
-function getFreqFromNote(f){
- return map2[f];
 }
 
 function getNumberFromNote(n) {
@@ -803,7 +801,7 @@ document.querySelector(".button-rec").onclick = async function(e) {
       }
     }
     rec = false;
-    var index = getRadioButtonSelected(); 
+    index = getRadioButtonSelected(); 
     message.push({note: pauseNote, freq: pauseFreq, duration: duration_loop-totalTime});
 
     recordedMessage[index] = ({sequence: message, instrument: curr_sound}); //store message
@@ -816,14 +814,14 @@ document.querySelector(".button-rec").onclick = async function(e) {
     check.disabled = false;
     document.querySelector(".loop-caption").removeAttribute("style");
   }
-}
+};
 
 
 //play local messages
 async function playMessage(mm) {
   if(!alreadyRec) {
     isPlaying = true;  
-    var messageSelected = mm.sequence //message selected from the bank
+    var messageSelected = mm.sequence; //message selected from the bank
     var sound = mm.instrument;
     var max = messageSelected.length;
     
@@ -835,20 +833,20 @@ async function playMessage(mm) {
 
         await sleep(messageSelected[i].duration);
 
-        for(var j = 0; j < messageSelected[i].freq.length; j++){  
+        for(j = 0; j < messageSelected[i].freq.length; j++){  
               release(messageSelected[i].freq[j]);
              }
         } 
     }
     else { //instrument sound
-        for(var i = 0; i < max; i++) {
-          for(var j = 0; j < messageSelected[i].freq.length; j++){      
-             attackSound(getMidiFromFreq(messageSelected[i].freq[j]), sound) 
+        for(i = 0; i < max; i++) {
+          for(j = 0; j < messageSelected[i].freq.length; j++){      
+             attackSound(getMidiFromFreq(messageSelected[i].freq[j]), sound); 
             }
 
         await sleep(messageSelected[i].duration);
 
-        for(var j = 0; j < messageSelected[i].freq.length; j++){  
+        for(j = 0; j < messageSelected[i].freq.length; j++){  
               releaseSound(getMidiFromFreq(messageSelected[i].freq[j]), sound);
              }
         }    
@@ -874,7 +872,7 @@ function playLocalMessage () {
 //riff.on('value', sendMessageToFirebase); send riff @GLOBAL
 //parametro data??
 function sendMessageToFirebase (index) {
-  console.log(userName + " sending message to Firebase..")
+  console.log(userName + " sending message to Firebase..");
   var messageSelected = recordedMessage[index].sequence;
   var sound = recordedMessage[index].instrument;
   var max = messageSelected.length;
@@ -901,7 +899,7 @@ function sendMessageToFirebase (index) {
 //FUNZIONE CHIAMATA OGNI VOLTA CHE LA STRINGA DA SERVER VIENE MODIFICATA
 function receivedString(data) {
   string = data.val();
-  console.log("Leggo stringa da server : " + string)
+  console.log("Leggo stringa da server : " + string);
 }
 
 
@@ -933,7 +931,7 @@ function assignTonality() {
   if(tonality.mode == "minor") {          //ricavare la relativa maggiore
     indexNote = (indexNote + 3) % 12;
   }
-  for(i = 0; i < 14; i++) {
+  for(var i = 0; i < 14; i++) {
     availableNote[indexNote] = true;
     //console.log(indexNote)
     if(i % 7 == 2 || i % 7 == 6) {   //in caso di semitono
@@ -1145,7 +1143,7 @@ async function playFirebaseSampleMessage() {
     
     await sleep(messageSelected[i].duration);
     
-   for(var j = 0; j < messageSelected[i].freq.length; j++){  
+   for(j = 0; j < messageSelected[i].freq.length; j++){  
       release(messageSelected[i].freq[j]);
       }
   }
@@ -1156,10 +1154,10 @@ async function playFirebaseSampleMessage() {
 /*Firebase samples radio button get index*/
 function getRadioButtonSampleSelected (){
   for (var i=0; i<4; i++){
-	    if(document.getElementsByName("radiosSample")[i].checked == true){
-		    return i;
+      if(document.getElementsByName("radiosSample")[i].checked == true){
+      return i;
         //+1
-	  }
+      }
    }
 }
 
@@ -1229,7 +1227,7 @@ var jsonSettings;
 function getSettingsFromFirebase () {
     firebase.database().ref('Loop/' + selectedLinkLoop["name"]).once('value', function(snap){
       jsonSettings = snap.val(); //{""} contains all the infos about the room
-    })
+    });
 }
 
 async function selectLoop(url, index) {
@@ -1253,7 +1251,7 @@ async function selectLoop(url, index) {
   //così abbiamo accesso a ogni informazione del loop in questione
   selectedLinkLoop = linkLoopList[index];
     //get settings of the loop and updates the room 
-  getSettingsFromFirebase()
+  getSettingsFromFirebase();
   while(jsonSettings == undefined){     
       await sleep(100);
   }
@@ -1326,7 +1324,7 @@ $(function() {
 async function createNewRoom () {
   var randomVal = getRandomArbitrary(100, 100000);
   
-  getRoomVal()
+  getRoomVal();
   while(roomVal == undefined) {
       await sleep(100);
   }
@@ -1358,7 +1356,7 @@ async function createNewRoom () {
   
   console.log("Creata nuova stanza Room" + roomVal.val + "-" + randomVal);
   roomPath = "/Room" + roomVal.val + "-" + randomVal;
-  document.getElementById("container-roomid").innerHTML = "ROOM ID: " + roomVal.val + "-" + randomVal
+  document.getElementById("container-roomid").innerHTML = "ROOM ID: " + roomVal.val + "-" + randomVal;
   updateRoomValue (roomVal.val);
 }
 
@@ -1366,7 +1364,7 @@ async function createNewRoom () {
 function updateCurrSample (val){
   var ref = firebase.database().ref(roomPath);
   val = val+1;
-  ref.update({sample : selectedLinkLoop.name})
+  ref.update({sample : selectedLinkLoop.name});
 }
 
 
@@ -1486,21 +1484,21 @@ function instantTranslateMMSInPlayableFormat(mm) {
     
   for(var i=0; i < splittedMesaggesNoteDur.length - 1; i=i+2){
     freqF = [];
-    var notesSplitted = [] 
+    var notesSplitted = []; 
     notesSplitted = splittedMesaggesNoteDur[i].split(',');
     
     for(var j = 0; j < notesSplitted.length; j++){
       freqF[j] = midiMap3[notesSplitted[j]]; //get NoteOct frequency
     }
     
-    instantMM.push({freq: freqF, duration: splittedMesaggesNoteDur[i+1]*1000})
+    instantMM.push({freq: freqF, duration: splittedMesaggesNoteDur[i+1]*1000});
   }
   
    return instantMM;
 }
 
 
-var refRC = firebase.database().ref(roomPath + '/RiffCollection/')
+var refRC = firebase.database().ref(roomPath + '/RiffCollection/');
 
 //TODO: FIXARLA
 //prima volta stampa tutti riff su DB nella stanza, poi solo quelli che vengono aggiunti e l'utente che li ha inseriti
@@ -1513,7 +1511,7 @@ function listenUpdatesFromFirebase () {
         console.log("E' stato aggiunto un nuovo riff da " + userOnFirebase.key + ": " + sampledRiff.key);
 
         console.log("Invio messaggio al master");
-        instantGetMMfromFirebaseROOM (userOnFirebase.key , sampledRiff.key)
+        instantGetMMfromFirebaseROOM (userOnFirebase.key , sampledRiff.key);
     });
     });
     //TODO: ON DELATEEEEEEEEEEEE
