@@ -14,6 +14,10 @@
 
 <body>
 
+  <div id = "container-roomid"></div>
+  <div class = "checkbox-db"><input type="checkbox" id="checkMM">Send to global DB</input></div>
+
+
   <div class= "station">
     <div class="square-rec">
     <!--<button type="button" id = "button-rec">REC</button>-->
@@ -32,7 +36,7 @@
         </select>
       </div>
         
-     <button type="button" id="button-play" onclick = "playMessage()">PLAY</button>  
+     <button type="button" id="button-play" onclick = "playLocalMessage()">PLAY</button>  
       
      <button type="button" class="octave-up" char = "p">+</button>
      <button type="button" class="octave-down" char = "o">-</button>
