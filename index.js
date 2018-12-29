@@ -819,7 +819,7 @@ document.querySelector(".button-rec").onclick = async function(e) {
 
 //play local messages
 async function playMessage(mm) {
-  if(!alreadyRec) {
+  if(!alreadyRec && !isPlaying && mm != undefined) {
     isPlaying = true;  
     var messageSelected = mm.sequence; //message selected from the bank
     var sound = mm.instrument;
