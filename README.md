@@ -107,7 +107,7 @@ Particular attention must be given to next topics included in the project:
 
 The program present an initial screen with the choice between two options: 
 
-"![](https://lh6.googleusercontent.com/k6RUMAW9nDrv_S5Gbqlux1VQB_gpNSP4BSQ391jDVplBgXjjB-52uxep7EbIL2Qj3f_Cs6DjVhVlSpjURFvH7quDSFO57LZJvlvKIYhjthhUWZjWlGtSvi5v-sqP8r-czB15e4z_ =220x)" 
+![](https://lh6.googleusercontent.com/k6RUMAW9nDrv_S5Gbqlux1VQB_gpNSP4BSQ391jDVplBgXjjB-52uxep7EbIL2Qj3f_Cs6DjVhVlSpjURFvH7quDSFO57LZJvlvKIYhjthhUWZjWlGtSvi5v-sqP8r-czB15e4z_)
 
 **1.  Create New Room**
     
@@ -163,7 +163,7 @@ Example of difference of Tonal Mode (E in this case) and Pro Mode on keyboard.
 
 Instruments are imported from WebAudioFont library except for the Oscillator that was created directly in Javascript. We have chosen them thought to be played in a solo performance on a loop, so they had to be versatile with a pleasant middle-high register sound. You can play only from C3 to B6 on the PC keyboard, but you can extend the range from A0 to C8 (like a piano range) with the connection of an external midi controller.
 
-![](https://lh3.googleusercontent.com/V3ud32_E6dV_BZ1t6xVegbK5eUo2Ny-9_wYhVoUTwCe34M4ss7k3Vge4UnB28MrMrszNyxnc6x8mDipNfMCuAVmk7KdaVb0IXKjxaxGdcmMR-yx9cCvShN6oTEe-jio0YUqj5RR4 =200x)
+![](https://lh3.googleusercontent.com/V3ud32_E6dV_BZ1t6xVegbK5eUo2Ny-9_wYhVoUTwCe34M4ss7k3Vge4UnB28MrMrszNyxnc6x8mDipNfMCuAVmk7KdaVb0IXKjxaxGdcmMR-yx9cCvShN6oTEe-jio0YUqj5RR4)
 
   
 
