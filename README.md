@@ -289,7 +289,7 @@ Hiraku was designed as a scalable application and contains already feature that 
 
 Our next goal is to extend the program with other ideas that we have in mind, and present our project in musical events (an opportunity can be the FestiValle in august 2019).
 
-  
+> Project link: http://hiraku.surge.sh/
   
 
 The Hiraku project team,
