@@ -1,0 +1,445 @@
+<!DOCTYPE html>
+<html lang="en" >
+
+<head>
+  <meta charset="UTF-8">
+  <title>hrku last v.</title>
+  
+  
+  
+      <link rel="stylesheet" href="css/style.css">
+
+  
+</head>
+
+<body>
+
+  
+<div class = "full-container hide">
+
+<div id="cm">
+<div id="client">
+<div class= "station">
+  <div class="rec-station">
+    <div id = "container-title">Hiraku - 開曲</div>
+    <div id = "container-container-roomid">
+    <div id = "container-roomid"></div>
+    </div>
+    <div class="square-rec">
+    <!--<button type="button" id = "button-rec">REC</button>-->
+    <button type="button" class = "button-rec">REC</button>
+      
+    <button type="button" id="button-play" onclick = "playLocalMessage()">PLAY</button>
+    </div>
+  </div>
+
+    <div class= "loop-station">
+     <!-- Radio buttons for the records -->
+      
+      <div id="monitor">
+  <div class="monitor-loop">• LOOP:</div>
+  <div class="monitor-tonality">• TONALITY: </div>
+  <div class="monitor-bpm">• BPM: </div>
+</div>
+      
+      <button type="button" class="octave-down" char = "o">-</button> 
+      <button type="button" class="octave-up" char = "p">+</button>
+      
+    </div>
+  <div class= "twitter-station">
+  <!-- Sharingbutton Twitter -->
+    
+    <!-- Rounded switch -->
+<div id="switch-container">
+  <label class="switch">
+    <input type="checkbox" id="procheck" disabled>
+    <span class="slider round"></span>
+  </label>
+</div>
+    
+    <div id="twitter-container">
+    <a class="resp-sharing-button__link" href="https://twitter.com/intent/tweet/?text=&amp;url=" target="_blank" aria-label="Twitter">
+   <div class="resp-sharing-button resp-sharing-button--twitter resp-sharing-button--medium"><div aria-hidden="true" class="resp-sharing-button__icon resp-sharing-button__icon--solid">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M23.44 4.83c-.8.37-1.5.38-2.22.02.93-.56.98-.96 1.32-2.02-.88.52-1.86.9-2.9 1.1-.82-.88-2-1.43-3.3-1.43-2.5 0-4.55 2.04-4.55 4.54 0 .36.03.7.1 1.04-3.77-.2-7.12-2-9.36-4.75-.4.67-.6 1.45-.6 2.3 0 1.56.8 2.95 2 3.77-.74-.03-1.44-.23-2.05-.57v.06c0 2.2 1.56 4.03 3.64 4.44-.67.2-1.37.2-2.06.08.58 1.8 2.26 3.12 4.25 3.16C5.78 18.1 3.37 18.74 1 18.46c2 1.3 4.4 2.04 6.97 2.04 8.35 0 12.92-6.92 12.92-12.93 0-.2 0-.4-.02-.6.9-.63 1.96-1.22 2.56-2.14z"/></svg></div>Twitter</div>
+    </a>
+    </div>
+    
+  <div id="record-container">
+  <div class="record-container">
+    <div class="record-dropdown">
+      <div class="record-caption">Record Banks</div>
+      <div class="record-list">
+        <div class="link-record" onclick="selectRecord(0)">Bank 1</div>
+        <div class="link-record" onclick="selectRecord(1)">Bank 2</div>
+        <div class="link-record" onclick="selectRecord(2)">Bank 3</div>
+        <div class="link-record" onclick="selectRecord(3)">Bank 4</div>
+      </div>
+    </div>
+  </div>
+  <label></label>
+</div>   
+    
+    <!-- SOUND -->
+   
+ <div id="sound-container">
+  <div class="sound-container">
+    <div class="sound-dropdown">
+      <div class="sound-caption">Instruments</div>
+      <div class="sound-list"></div>
+    </div>
+  </div>
+  <label></label>
+</div>
+    
+    <!-- RESOLUTION -->
+    
+    <div id="resolution-container">
+  <div id="res-0" class="resolution resolution-box resolution-box-selected" style="border-radius: 3px 0px 0px 3px;" onclick="selectResolution(0)">
+    <div class="resolution">4th</div>
+  </div>
+  <div id="res-1" class="resolution resolution-box" onclick="selectResolution(1)">
+    <div class="resolution">8th</div>
+  </div>
+  <div id="res-2" class="resolution resolution-box" onclick="selectResolution(2)">
+    <div class="resolution">16th</div>
+  </div>
+  <div id="res-3" class="resolution resolution-box" style="border-radius: 0px 3px 3px 0px;" onclick="selectResolution(3)">
+    <div class="resolution">Mute</div>
+  </div>
+</div>
+    
+  </div>
+  
+  <!--Station closed -->
+</div>
+
+
+<div class="progress">
+</div>
+
+
+<div class="keyboard-container">
+  <div class="keyboard-border" style="border-radius: 0px 0px 0px 10px;"></div>
+  <div class="keyboard">
+    <!--First Octave Keyboard -->
+    <div class ="keyboard2">
+      <div class="section-key">
+        <div class="black-box">
+          <div class="first-bb">
+           <div class="circle black-circle bc-first" circle-number ="13" char = "2"></div>
+           <div class="circle black-circle bc-first" circle-number = "15" char = "3"></div>
+          </div>
+
+        <div class="second-bb">
+          <div class="circle black-circle bc-second" circle-number = "18" char = "5"></div>
+          <div class="circle black-circle bc-second" circle-number = "20" char = "6"></div>   
+          <div class="circle black-circle bc-second" circle-number = "22" char = "7"></div>
+        </div>
+      </div>
+    <!-- Section-key closed-->
+  </div>
+
+      <div class="section-key">
+        <div class="white-box">
+          <div class="circle white-circle" circle-number = "12" char = "q"></div>
+          <div class="circle white-circle" circle-number = "14" char = "w"></div>
+          <div class="circle white-circle" circle-number = "16" char = "e"></div>
+          <div class="circle white-circle" circle-number = "17" char = "r"></div>
+          <div class="circle white-circle" circle-number = "19" char = "t"></div>
+          <div class="circle white-circle" circle-number = "21" char = "y"></div>
+          <div class="circle white-circle" circle-number = "23" char = "u"></div>
+        </div>
+      </div>
+     <!-- Keyboard 2 closed-->
+   </div>
+
+    <div class ="keyboard1">
+      <div class="section-key">
+          <div class="black-box">
+            <div class="first-bb">
+              <div class="circle black-circle bc-first" circle-number ="1" char = "s"></div>
+              <div class="circle black-circle bc-first" circle-number = "3" char = "d"></div>
+          </div>
+
+          <div class="second-bb">
+              <div class="circle black-circle bc-second" circle-number = "6" char = "g"></div>
+              <div class="circle black-circle bc-second" circle-number = "8" char = "h"></div>   
+              <div class="circle black-circle bc-second" circle-number = "10" char = "j"></div>
+         </div>
+        </div>
+
+    </div>
+
+      <div class="section-key">
+          <div class="white-box">
+            <div class="circle white-circle" circle-number = "0" char = "z"></div>
+            <div class="circle white-circle" circle-number = "2" char = "x"></div>
+            <div class="circle white-circle" circle-number = "4" char = "c"></div>
+            <div class="circle white-circle" circle-number = "5" char = "v"></div>
+            <div class="circle white-circle" circle-number = "7" char = "b"></div>
+            <div class="circle white-circle" circle-number = "9" char = "n"></div>
+            <div class="circle white-circle" circle-number = "11" char = "m"></div>
+          </div>
+       </div>
+
+     <!-- Keyboard 1 closed-->
+    </div>
+    <!-- Keyboard closed-->
+  </div>
+    <div class="keyboard-border keyboard-border-second" style="border-radius: 0px 0px 10px 0px;"></div>
+  <!-- Keyboard-container closed-->
+</div>
+</div>
+<!-- PARTE DEL MASTER DA SPOSTARE -->
+
+<div id="master">
+<div id="iteration-container">
+  
+  <div class = "checkbox-db"><input type="checkbox" id="checkMM">Send to global DB</input></div>
+
+  <div id="loop-id-container">
+  <div class="loop-class-container">
+    <div class="loop-dropdown">
+      <div class="loop-caption">Loop</div>
+      <div class="loop-list"></div>
+    </div>
+  </div>
+  <label></label>
+  <input type="checkbox" id="check" disabled></input>
+</div>
+  
+  
+  <div id="three-buttons">
+  
+  <button type="button" class="on-off-iteration">ML</button>
+
+  <div id="number-container">
+    <div class="number-iteration">
+      <div class="number-iteration-text">30</div>
+    </div>
+    <div class="up-down-iteration-container">
+      <button type="button" class="up-iteration">+</button>
+      <button type="button" class="down-iteration">-</button>
+    </div>
+  </div>
+
+  <button type="button" class="create-riff">Create Message</button>
+    
+  </div>
+
+  <div id="storer">Transform Online Messages</div>
+
+    <audio controls id="file-mp3"></audio>
+
+</div>
+
+<!-------------------------------------->
+
+<!--search user containter -->
+<div id="search-user-container">
+  <!-- Search User Bar -->     
+     <div class = "search-User">
+       <input type="text" class="name-input" placeholder="username" onfocus="focusInputText()" onblur="blurInputText ()"/>
+       <button id="userSearch" class="lp-fire" onclick ="setSearchedUser()" type="button">Confirm</button></div>
+  
+  <!--Samples Radio Button -->
+
+     <div class= "firebase-Samples">
+       <h3>DB Global Messages<h3>
+         <!-- Radio buttons for the records -->
+         <div class = "radioButtonsSamples1">
+           <label id="radio1" class="containerRB">Bank 1
+              <input type="radio" checked="checked" name="radiosSample">
+              <span class="checkmark"></span>
+           </label>
+           <label id="radio2" class="containerRB">Bank 2
+              <input type="radio" name="radiosSample">
+               <span class="checkmark"></span>
+            </label>
+         </div>
+         <div class = "radioButtonsSamples2">
+            <label id="radio3" class="containerRB">Bank 3
+               <input type="radio" name="radiosSample">
+               <span class="checkmark"></span>
+           </label>
+           <label id="radio4" class="containerRB">Bank 4
+              <input type="radio" name="radiosSample">
+              <span class="checkmark"></span>
+           </label>
+          </div>
+       </div>
+         
+       <div id="lp-fire-container">
+         <button type="button" class="lp-fire" onclick = "loadFirebaseSample()">LOAD</button>  
+         <button type="button" class="lp-fire" onclick = "playFirebaseSampleMessage()">PLAY</button>
+       </div>
+         
+</div>
+</div>
+</div>
+     
+<!--LOADING BAR-->
+      
+<div id="overlay"> 
+  <div id="myProgress">
+    <div id="myBar"></div>
+  </div>
+</div>
+  
+</div>  
+
+   <!--LOGIN -->
+<div class="loginPosition">
+ <div class= "loginSettings">
+  <h1>Hiraku - 開曲</h1> 
+  <div class= "selectOptions">
+       <!-- Radio buttons for the records -->
+        <div class = "radioButtonsSettings">
+          <label id="createRoom" class="containerRBSettings">Create New Room
+             <input type="radio" checked="checked" id="1" name="radiosSettings">
+             <span class="checkmark"></span>
+          </label>
+          <label id="joinRoom" class="containerRBSettings">Join Cooperative Room
+             <input type="radio" name="radiosSettings">
+             <span class="checkmark"></span>
+          </label>
+        </div>
+
+      <div class = "choiceNickname hide">
+        <h4>Insert Your Nickname</h4>
+        <input type="text" class="nickname-input"/>
+      </div>
+      <div class = "choiceRoomId hide">
+           <h4>Insert Room Id</h4>
+        <input type="text" class="roomId-input"/>
+      </div>
+    <button type="button" id="confirmButton" onclick = "choiceConfirmed()">Confirm</button>
+   <button type="button" id="backButton" class="hide" onclick = "choiceBack()">Back</button>
+    </div>
+</div>  
+</div>
+
+<!-- Metronome -->
+
+<div id="hidden-part">
+    <div id="controls">
+      <div><a class="play" onclick="this.innerText = play(0);">play</a></div>
+      <div id="tempoBox">Tempo: <span id="showTempo">120</span>BPM <input id="tempo" type="range" min="30.0" max="160.0" step="1" value="120" style="height: 20px; width: 200px" onInput="tempo = event.target.value; document.getElementById('showTempo').innerText=tempo;"></div>
+    </div>
+</div>
+
+<script src="//cwilso.github.io/AudioContext-MonkeyPatch/AudioContextMonkeyPatch.js"></script>
+
+   
+
+     
+  
+<!-- Firebase Server -->
+  <script src="https://www.gstatic.com/firebasejs/5.7.0/firebase.js"></script>
+<script>
+  // Initialize Firebase
+  var config = {
+    apiKey: "AIzaSyD9hOQrcAoDvenkvWSC84Yp6DSsviMGeN4",
+    authDomain: "karaoko-b7a26.firebaseapp.com",
+    databaseURL: "https://karaoko-b7a26.firebaseio.com",
+    projectId: "karaoko-b7a26",
+    storageBucket: "",
+    messagingSenderId: "1076963275256"
+  };
+  firebase.initializeApp(config);
+</script>
+     
+<!-- jquery to get input from input String -->
+<!--<script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>  vediamo --> 
+
+<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+<!-- Notifications -->
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mouse0270-bootstrap-notify/3.1.5/bootstrap-notify.min.js"></script>
+  
+<!-- Sound -->
+<script src='https://surikov.github.io/webaudiofont/npm/dist/WebAudioFontPlayer.js'></script>
+  
+<style>
+@font-face {
+  font-family: 'Glyphicons Halflings';
+  src: url('//cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/fonts/glyphicons-halflings-regular.eot');
+  src: url('//cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/fonts/glyphicons-halflings-regular.eot?#iefix') format('embedded-opentype'),
+       url('//cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/fonts/glyphicons-halflings-regular.woff2') format('woff2'),
+       url('//cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/fonts/glyphicons-halflings-regular.woff') format('woff'),
+       url('//cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/fonts/glyphicons-halflings-regular.ttf') format('truetype'),
+       url('//cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/fonts/glyphicons-halflings-regular.svg#glyphicons_halflingsregular') format('svg');
+}
+.glyphicon {
+  position: relative;
+  top: 1px;
+  display: inline-block;
+  font: normal normal 16px/1 'Glyphicons Halflings';
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  margin-right: 4px;
+}
+/* Add icons you will be using below */
+.glyphicon-ok:before {
+  content:"\e013";
+}
+.glyphicon-info-sign:before {
+  content:"\e086";
+}
+.glyphicon-warning-sign:before {
+  content:"\e107";
+}
+.glyphicon-remove-sign:before {
+  content:"\e088";
+}
+.glyphicon-ruble:before {
+  content:"\20bd";
+}
+.glyphicon-ok-circle:before {
+  content:"\e089";
+}
+ 
+.glyphicon-search:before {
+  content:"\e003";
+}
+  
+.glyphicon-volume-up:before {
+   content:"\e038";
+}  
+  
+.glyphicon-globe:before{
+   content:"\e135";
+}  
+  
+.glyphicon-send:before{
+   content:"\e171";
+}  
+  
+.glyphicon-cd:before{
+   content:"\e201";
+}  
+  
+.glyphicon-music:before{
+   content:"\e002";
+}  
+  
+.glyphicon-barcode:before{
+   content:"\e040";    
+}  
+  
+</style>
+  
+
+
+<!-- <script type="text/javascript" src="index.js"></script> -->
+  
+  
+
+    <script  src="js/index.js"></script>
+
+
+
+
+</body>
+
+</html>
