@@ -216,12 +216,18 @@ As mentioned in a previous paragraph, Room’s Master have also the possibility 
 
 # Blob-mp3 of MM Received
 
-Once the master has decided to perform the messages that he has received, he will hit the button “Transform Online Messages”. Starting from the collection of all MM received, the![](https://lh5.googleusercontent.com/uGEizTfzHCv_yrTuc8fv84vKC1gUGmV5LwwJ-vq0havy7_fnKwrq7fkqZc7hAnOwg2fX3KZf88cMty12oD5kORYHXWM1qXyVdN0hQ_THLaJk5cG_1r6bEa3nekQrg7PmpymHiop_)
-
+Once the master has decided to perform the messages that he has received, he will hit the button “Transform Online Messages”. Starting from the collection of all MM received, the
 web-application will play them one by one internally, in a Media Recorder, saving the informations in chunks with whom is created an audio type Blob. From that it will be created an audio with the url containing the informations.
 
-This operation provides to create an audio with all the MM that will be played simultaneously to the song loop on which they were recorded. The choice of creating this audio instead of playing the messages under the loop was made to maintain the delay at the lowest level possible. After the conversion has been completed, the master will receive a notification and all will be ready for the performance.![](https://lh5.googleusercontent.com/nhZRUoHkN24yVSvgMpvOv0Ngdz0bSC3fB3NlEgyhVJU9rZ1beZRWh0xglphVyThm1JnHqU3wFaLxRN_lNh4e1m_RJIoI6ZY4Bsp7NugKGtb1NkCZZ5j1yq5KV6rXLVsI8I1UUjN_)
-![](https://lh5.googleusercontent.com/Psh_3umfecQQ8c_f3bDMgltaVXSsxMADjUQDNSoeYLfhlMEa1YZPSmFZJXmstuGxoUO8TOai6bpIxKBjFXuyOCcdLEU7QiTv9UTR1lO82wqK-Kp99edL4kmnIGqJVc_AkZSX9Fla)![](https://lh4.googleusercontent.com/-OjxrJRCQi-uLNR0gpe_2Ky03C0sYx4sERzK9LyJBlI5KR995VoRpdhgbm7UdAIJXDAx6MP2EC-uEh0IPSB0VDw-XNcOLo-Nnv-MzySuzkvuwHRnv4BSBJYg4HVfi-5byBq0zbd_)
+![](https://lh5.googleusercontent.com/uGEizTfzHCv_yrTuc8fv84vKC1gUGmV5LwwJ-vq0havy7_fnKwrq7fkqZc7hAnOwg2fX3KZf88cMty12oD5kORYHXWM1qXyVdN0hQ_THLaJk5cG_1r6bEa3nekQrg7PmpymHiop_)
+
+
+This operation provides to create an audio with all the MM that will be played simultaneously to the song loop on which they were recorded. The choice of creating this audio instead of playing the messages under the loop was made to maintain the delay at the lowest level possible. After the conversion has been completed, the master will receive a notification and all will be ready for the performance.
+
+![](https://lh5.googleusercontent.com/nhZRUoHkN24yVSvgMpvOv0Ngdz0bSC3fB3NlEgyhVJU9rZ1beZRWh0xglphVyThm1JnHqU3wFaLxRN_lNh4e1m_RJIoI6ZY4Bsp7NugKGtb1NkCZZ5j1yq5KV6rXLVsI8I1UUjN_)
+![](https://lh5.googleusercontent.com/Psh_3umfecQQ8c_f3bDMgltaVXSsxMADjUQDNSoeYLfhlMEa1YZPSmFZJXmstuGxoUO8TOai6bpIxKBjFXuyOCcdLEU7QiTv9UTR1lO82wqK-Kp99edL4kmnIGqJVc_AkZSX9Fla)
+
+![](https://lh4.googleusercontent.com/-OjxrJRCQi-uLNR0gpe_2Ky03C0sYx4sERzK9LyJBlI5KR995VoRpdhgbm7UdAIJXDAx6MP2EC-uEh0IPSB0VDw-XNcOLo-Nnv-MzySuzkvuwHRnv4BSBJYg4HVfi-5byBq0zbd_)
 
 This conversion of messages adds a new feature to the web-app, that is the possibility to download the performed message in mp3 format (using audio/mpeg conversion in blob), allowing the use of the records also outside the application.
 
@@ -240,7 +246,8 @@ One of the main features of  Hiraku is the **Machine Learning Algorithm** which 
 
 If the Machine Learning button is active, all no pro MM received will feed the Markov Chain structure in the program. The data structure is based on informations about notes grades, intervals, octave changes, time durations, pauses and the algorithm provides to create probabilistic branches based on all the information contained in the messages. The Markov Chain keep updating whenever a new message arrives, and the more informations it has, the more it can extract an interesting style of playing.
 
-![](https://lh4.googleusercontent.com/84Xb2Fw9iyq61d4R8Rh-U0SFkyLOjYUHKfIjk2hPzokehi1d0RgT1hAdkKJHugrn2VT_nVSBJLrVkpvibnNegzfbBJssEu-bKCFxMzZdunPahYguPsWZb-5PRuQB6ztKCt71zeh- )  
+![](https://lh4.googleusercontent.com/84Xb2Fw9iyq61d4R8Rh-U0SFkyLOjYUHKfIjk2hPzokehi1d0RgT1hAdkKJHugrn2VT_nVSBJLrVkpvibnNegzfbBJssEu-bKCFxMzZdunPahYguPsWZb-5PRuQB6ztKCt71zeh- )
+  
 
 After setting the number of iterations that the algorithm will do into the MC, clicking the ‘Create Message’ button, it will be constructed a new MM based on the probabilistic information path and at the end applying duration cuts to allow the correct fit of the message. Then, the new computer-created MM is added in the queue with the user’s ones, ready to be converted into the audio mp3.
 
@@ -257,6 +264,7 @@ After setting the number of iterations that the algorithm will do into the MC, c
 # Twitter text conversion, Python Crawler
 
 A further feature of Hiraku is the possibility to share the MM created on Twitter in a text-version format clicking on the button on the top right of the keyboard.
+
 ![](https://lh5.googleusercontent.com/fpsmQNBHWy8mxvtHzcsrZzR_8A4Px_28lhNGsCeGayn46U7gAexw5vPrcpfQIEqYsP_0k04ydok9iZMqrD9tCtaPsHpnOuvEL233kYpvcNZDIiaDGC1MIb-VzSL76sUCgSq6eQn4)
   
 
