@@ -225,7 +225,7 @@ As mentioned in a previous paragraph, Room’s Master have also the possibility 
 Once the master has decided to perform the messages that he has received, he will hit the button “Transform Online Messages”. Starting from the collection of all MM received, the
 web-application will play them one by one internally, in a Media Recorder, saving the informations in chunks with whom is created an audio type Blob. From that it will be created an audio with the url containing the informations.
 
-<p align="center"><img src="https://lh5.googleusercontent.com/uGEizTfzHCv_yrTuc8fv84vKC1gUGmV5LwwJ-vq0havy7_fnKwrq7fkqZc7hAnOwg2fX3KZf88cMty12oD5kORYHXWM1qXyVdN0hQ_THLaJk5cG_1r6bEa3nekQrg7PmpymHiop_"></p>
+<p align="center"><img width="300" src="https://lh5.googleusercontent.com/uGEizTfzHCv_yrTuc8fv84vKC1gUGmV5LwwJ-vq0havy7_fnKwrq7fkqZc7hAnOwg2fX3KZf88cMty12oD5kORYHXWM1qXyVdN0hQ_THLaJk5cG_1r6bEa3nekQrg7PmpymHiop_"></p>
 
 
 This operation provides to create an audio with all the MM that will be played simultaneously to the song loop on which they were recorded. The choice of creating this audio instead of playing the messages under the loop was made to maintain the delay at the lowest level possible. After the conversion has been completed, the master will receive a notification and all will be ready for the performance.
@@ -255,7 +255,7 @@ One of the main features of  Hiraku is the **Machine Learning Algorithm** which 
 
 If the Machine Learning button is active, all no pro MM received will feed the Markov Chain structure in the program. The data structure is based on informations about notes grades, intervals, octave changes, time durations, pauses and the algorithm provides to create probabilistic branches based on all the information contained in the messages. The Markov Chain keep updating whenever a new message arrives, and the more informations it has, the more it can extract an interesting style of playing.
 
-<p align="center"><img src="https://lh4.googleusercontent.com/84Xb2Fw9iyq61d4R8Rh-U0SFkyLOjYUHKfIjk2hPzokehi1d0RgT1hAdkKJHugrn2VT_nVSBJLrVkpvibnNegzfbBJssEu-bKCFxMzZdunPahYguPsWZb-5PRuQB6ztKCt71zeh-"></p>
+<p align="center"><img width="300" src="https://lh4.googleusercontent.com/84Xb2Fw9iyq61d4R8Rh-U0SFkyLOjYUHKfIjk2hPzokehi1d0RgT1hAdkKJHugrn2VT_nVSBJLrVkpvibnNegzfbBJssEu-bKCFxMzZdunPahYguPsWZb-5PRuQB6ztKCt71zeh-"></p>
   
 
 After setting the number of iterations that the algorithm will do into the MC, clicking the ‘Create Message’ button, it will be constructed a new MM based on the probabilistic information path and at the end applying duration cuts to allow the correct fit of the message. Then, the new computer-created MM is added in the queue with the user’s ones, ready to be converted into the audio mp3.
