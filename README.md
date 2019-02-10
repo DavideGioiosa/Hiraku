@@ -135,13 +135,14 @@ This encoding / decoding technique allows to record and stored the messages, the
 
 This bar represents the length of a loop, expressed in pulses. The squares turn on one by one following the rhythm and the “on-color” changes related to the time signature of the loop. For example, if we have a loop composed by 4 beats and a 5/4 time signature, we will have a bar composed by 5*4 squares, and the “on-color” changes every 5 squares. It’s created dynamically in Javascript when a new loop is selected and it’s controlled by a Web Worker.
 
-![](https://lh4.googleusercontent.com/KXQ9s9gAXOJRmGaMueGE_2Re8MxDYQBl5KQZkHyNb2Wl4kFfgDRrwGRGTZdD4TvfQxct5t5vi5pc1z6S05N3H-8Q_CQbl0NGI6QgHxTZ0NIDDGT2KcFYt0m-uAlQ2xkTJ8t8-1KF)
+<p align="center">
+![](https://lh4.googleusercontent.com/KXQ9s9gAXOJRmGaMueGE_2Re8MxDYQBl5KQZkHyNb2Wl4kFfgDRrwGRGTZdD4TvfQxct5t5vi5pc1z6S05N3H-8Q_CQbl0NGI6QgHxTZ0NIDDGT2KcFYt0m-uAlQ2xkTJ8t8-1KF)</p>
 
 # Loop characteristics and buffer Audio - Tonality Limitations and Pro version 
 
 Loops have been created with FL Studio and some VST. They are stored in a Dropbox account and, when one of them is selected, it will be decoded in an audio buffer ready to be played. The attribute “loop” is setted true in order to obtain a “loop” effect.
 
-  ![](https://lh3.googleusercontent.com/iC3qm1lE_y_uaTwaBStZj597GSv_RpLvCe9zC0fZzqH6kbxa36fo54153q-4oK3udlsMissdDSjp83pvEQnF4sc1H5UR1u6Y4TzungDBSady0QWZT_P9UkCPaZM0vXuRF9mOKeFd)
+<p align="center">![](https://lh3.googleusercontent.com/iC3qm1lE_y_uaTwaBStZj597GSv_RpLvCe9zC0fZzqH6kbxa36fo54153q-4oK3udlsMissdDSjp83pvEQnF4sc1H5UR1u6Y4TzungDBSady0QWZT_P9UkCPaZM0vXuRF9mOKeFd)</p>
   
 >FL Studio / VST links  
 [https://www.image-line.com/flstudio/  
