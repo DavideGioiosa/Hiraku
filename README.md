@@ -206,7 +206,9 @@ Subsequently, we decided to create an audio type Blob from a recorded message (s
 
 When room’s master or an user logged into the room completes the creation of a musical message on the selected loop, the MM is send directly on the database and received in realtime by the master, that is listening on database room’s updates. The operations are notified in the application with notifications (which will be discussed later). Once received, the musical messages are decoding by the translation algorithm and ready to be played.
 
-<p align="center"><img src="https://lh6.googleusercontent.com/0w7LIXaA_lD6cBrkH3A-PnOMce0fVVcr6vTjbUTPSMHTE-3I9gog6sn71rEb9MyWAiKXFi8U4za1oEWwH7MrgWzjAE-l2zGf-KxyWtsBmK38hwmnk96jHARxllAEw9_Tt7xBJSrX =200x)    ![](https://lh5.googleusercontent.com/Y2zboznIMeteVWcrrNmdmCW9t-annDcEjpH074IKfq9gvKFIBnrif8UriisuAVKawfEcgVq4VVoIRe-JiKbmgtlgHXqe4LGFqLbk2YSUp_a1L4hhR8HEYAi3xDy8fmzt0qIRmBCA"></p>
+<p align="center"><img src="https://lh6.googleusercontent.com/0w7LIXaA_lD6cBrkH3A-PnOMce0fVVcr6vTjbUTPSMHTE-3I9gog6sn71rEb9MyWAiKXFi8U4za1oEWwH7MrgWzjAE-l2zGf-KxyWtsBmK38hwmnk96jHARxllAEw9_Tt7xBJSrX"></p>
+  
+<p align="center"><img src="https://lh5.googleusercontent.com/Y2zboznIMeteVWcrrNmdmCW9t-annDcEjpH074IKfq9gvKFIBnrif8UriisuAVKawfEcgVq4VVoIRe-JiKbmgtlgHXqe4LGFqLbk2YSUp_a1L4hhR8HEYAi3xDy8fmzt0qIRmBCA"></p>
 
   
   
