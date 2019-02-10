@@ -230,15 +230,15 @@ web-application will play them one by one internally, in a Media Recorder, savin
 
 This operation provides to create an audio with all the MM that will be played simultaneously to the song loop on which they were recorded. The choice of creating this audio instead of playing the messages under the loop was made to maintain the delay at the lowest level possible. After the conversion has been completed, the master will receive a notification and all will be ready for the performance.
 
-<p align="center"><img  width="250" src="https://lh5.googleusercontent.com/nhZRUoHkN24yVSvgMpvOv0Ngdz0bSC3fB3NlEgyhVJU9rZ1beZRWh0xglphVyThm1JnHqU3wFaLxRN_lNh4e1m_RJIoI6ZY4Bsp7NugKGtb1NkCZZ5j1yq5KV6rXLVsI8I1UUjN_"></p>
+<p align="center"><img  width="300" src="https://lh5.googleusercontent.com/nhZRUoHkN24yVSvgMpvOv0Ngdz0bSC3fB3NlEgyhVJU9rZ1beZRWh0xglphVyThm1JnHqU3wFaLxRN_lNh4e1m_RJIoI6ZY4Bsp7NugKGtb1NkCZZ5j1yq5KV6rXLVsI8I1UUjN_"></p>
 
-<p align="center"><img width="250" src="https://lh5.googleusercontent.com/Psh_3umfecQQ8c_f3bDMgltaVXSsxMADjUQDNSoeYLfhlMEa1YZPSmFZJXmstuGxoUO8TOai6bpIxKBjFXuyOCcdLEU7QiTv9UTR1lO82wqK-Kp99edL4kmnIGqJVc_AkZSX9Fla"></p>
+<p align="center"><img width="300" src="https://lh5.googleusercontent.com/Psh_3umfecQQ8c_f3bDMgltaVXSsxMADjUQDNSoeYLfhlMEa1YZPSmFZJXmstuGxoUO8TOai6bpIxKBjFXuyOCcdLEU7QiTv9UTR1lO82wqK-Kp99edL4kmnIGqJVc_AkZSX9Fla"></p>
 
 
 
 This conversion of messages adds a new feature to the web-app, that is the possibility to download the performed message in mp3 format (using audio/mpeg conversion in blob), allowing the use of the records also outside the application.
 
-<p align="center"><img width="250" src="https://lh4.googleusercontent.com/-OjxrJRCQi-uLNR0gpe_2Ky03C0sYx4sERzK9LyJBlI5KR995VoRpdhgbm7UdAIJXDAx6MP2EC-uEh0IPSB0VDw-XNcOLo-Nnv-MzySuzkvuwHRnv4BSBJYg4HVfi-5byBq0zbd_"></p>
+<p align="center"><img width="300" src="https://lh4.googleusercontent.com/-OjxrJRCQi-uLNR0gpe_2Ky03C0sYx4sERzK9LyJBlI5KR995VoRpdhgbm7UdAIJXDAx6MP2EC-uEh0IPSB0VDw-XNcOLo-Nnv-MzySuzkvuwHRnv4BSBJYg4HVfi-5byBq0zbd_"></p>
 
 # Play loop synchronized with MM received
 
