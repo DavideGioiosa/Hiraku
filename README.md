@@ -170,7 +170,7 @@ Instruments are imported from WebAudioFont library except for the Oscillator tha
 
   
 
-# Master records, local banks, metronome, Worker 
+# Master records, Local banks, Metronome, Worker 
 
 The “REC” button starts a registration. The length of a registration is equal to the length of the selected loop and it starts at the beginning of the loop. The registration is sent to the master and saved in one of four record Banks, the one that is selected. 
 
@@ -206,9 +206,9 @@ Subsequently, we decided to create an audio type Blob from a recorded message (s
 
 When room’s master or an user logged into the room completes the creation of a musical message on the selected loop, the MM is send directly on the database and received in realtime by the master, that is listening on database room’s updates. The operations are notified in the application with notifications (which will be discussed later). Once received, the musical messages are decoding by the translation algorithm and ready to be played.
 
-<p align="center"><img width="200" src="https://lh6.googleusercontent.com/0w7LIXaA_lD6cBrkH3A-PnOMce0fVVcr6vTjbUTPSMHTE-3I9gog6sn71rEb9MyWAiKXFi8U4za1oEWwH7MrgWzjAE-l2zGf-KxyWtsBmK38hwmnk96jHARxllAEw9_Tt7xBJSrX"></p>
+<p align="center"><img width="250" src="https://lh6.googleusercontent.com/0w7LIXaA_lD6cBrkH3A-PnOMce0fVVcr6vTjbUTPSMHTE-3I9gog6sn71rEb9MyWAiKXFi8U4za1oEWwH7MrgWzjAE-l2zGf-KxyWtsBmK38hwmnk96jHARxllAEw9_Tt7xBJSrX"></p>
   
-<p align="center"><img width="200" src="https://lh5.googleusercontent.com/Y2zboznIMeteVWcrrNmdmCW9t-annDcEjpH074IKfq9gvKFIBnrif8UriisuAVKawfEcgVq4VVoIRe-JiKbmgtlgHXqe4LGFqLbk2YSUp_a1L4hhR8HEYAi3xDy8fmzt0qIRmBCA"></p>
+<p align="center"><img width="250" src="https://lh5.googleusercontent.com/Y2zboznIMeteVWcrrNmdmCW9t-annDcEjpH074IKfq9gvKFIBnrif8UriisuAVKawfEcgVq4VVoIRe-JiKbmgtlgHXqe4LGFqLbk2YSUp_a1L4hhR8HEYAi3xDy8fmzt0qIRmBCA"></p>
 
   
   
@@ -217,7 +217,7 @@ When room’s master or an user logged into the room completes the creation of a
 
 As mentioned in a previous paragraph, Room’s Master have also the possibility to send a musical message created to a global database container. This operation will permit to every other master of other rooms to get and play the global uploaded MM. In fact in the panel controls of the room exists the database’s Global Messages Area: the user inserts the username of the owner of the message that wants to load in the application, choose the bank where the message was stored (one of four) related to the account searched, loads it and then the MM can be played applying the decoding and translation algorithm. This function allows a global communication channel between users with the use of MM.
 
-<p align="center"><img src="https://lh6.googleusercontent.com/2CiemG7yRYjMOjH5f9XwQ2CFhSG7Glu2eWzKpV3cMhsJA2ahY9fYBXc8552dRzGsP_qdcBUU1KvcxwGTmzbaORIqgmiL-shQMHfPfG-eg_g8MLJ8C3D5AMdoZDnz67KJREhcBTAu"></p>
+<p align="center"><img width="400" src="https://lh6.googleusercontent.com/2CiemG7yRYjMOjH5f9XwQ2CFhSG7Glu2eWzKpV3cMhsJA2ahY9fYBXc8552dRzGsP_qdcBUU1KvcxwGTmzbaORIqgmiL-shQMHfPfG-eg_g8MLJ8C3D5AMdoZDnz67KJREhcBTAu"></p>
   
 
 # Blob-mp3 of MM Received
@@ -230,9 +230,9 @@ web-application will play them one by one internally, in a Media Recorder, savin
 
 This operation provides to create an audio with all the MM that will be played simultaneously to the song loop on which they were recorded. The choice of creating this audio instead of playing the messages under the loop was made to maintain the delay at the lowest level possible. After the conversion has been completed, the master will receive a notification and all will be ready for the performance.
 
-<p align="center"><img src="https://lh5.googleusercontent.com/nhZRUoHkN24yVSvgMpvOv0Ngdz0bSC3fB3NlEgyhVJU9rZ1beZRWh0xglphVyThm1JnHqU3wFaLxRN_lNh4e1m_RJIoI6ZY4Bsp7NugKGtb1NkCZZ5j1yq5KV6rXLVsI8I1UUjN_"></p>
+<p align="center"><img  width="250" src="https://lh5.googleusercontent.com/nhZRUoHkN24yVSvgMpvOv0Ngdz0bSC3fB3NlEgyhVJU9rZ1beZRWh0xglphVyThm1JnHqU3wFaLxRN_lNh4e1m_RJIoI6ZY4Bsp7NugKGtb1NkCZZ5j1yq5KV6rXLVsI8I1UUjN_"></p>
 
-<p align="center"><img src="https://lh5.googleusercontent.com/Psh_3umfecQQ8c_f3bDMgltaVXSsxMADjUQDNSoeYLfhlMEa1YZPSmFZJXmstuGxoUO8TOai6bpIxKBjFXuyOCcdLEU7QiTv9UTR1lO82wqK-Kp99edL4kmnIGqJVc_AkZSX9Fla"></p>
+<p align="center"><img width="250" src="https://lh5.googleusercontent.com/Psh_3umfecQQ8c_f3bDMgltaVXSsxMADjUQDNSoeYLfhlMEa1YZPSmFZJXmstuGxoUO8TOai6bpIxKBjFXuyOCcdLEU7QiTv9UTR1lO82wqK-Kp99edL4kmnIGqJVc_AkZSX9Fla"></p>
 
 
 
@@ -275,7 +275,7 @@ After setting the number of iterations that the algorithm will do into the MC, c
 
 A further feature of Hiraku is the possibility to share the MM created on Twitter in a text-version format clicking on the button on the top right of the keyboard.
 
-<p align="center"><img src="https://lh5.googleusercontent.com/fpsmQNBHWy8mxvtHzcsrZzR_8A4Px_28lhNGsCeGayn46U7gAexw5vPrcpfQIEqYsP_0k04ydok9iZMqrD9tCtaPsHpnOuvEL233kYpvcNZDIiaDGC1MIb-VzSL76sUCgSq6eQn4"></p>
+<p align="center"><img  width="350" src="https://lh5.googleusercontent.com/fpsmQNBHWy8mxvtHzcsrZzR_8A4Px_28lhNGsCeGayn46U7gAexw5vPrcpfQIEqYsP_0k04ydok9iZMqrD9tCtaPsHpnOuvEL233kYpvcNZDIiaDGC1MIb-VzSL76sUCgSq6eQn4"></p>
   
 
 
