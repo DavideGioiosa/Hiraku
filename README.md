@@ -107,7 +107,7 @@ Particular attention must be given to next topics included in the project:
 
 The program present an initial screen with the choice between two options: 
 
-<p align="center"><img width="200" src="https://lh6.googleusercontent.com/k6RUMAW9nDrv_S5Gbqlux1VQB_gpNSP4BSQ391jDVplBgXjjB-52uxep7EbIL2Qj3f_Cs6DjVhVlSpjURFvH7quDSFO57LZJvlvKIYhjthhUWZjWlGtSvi5v-sqP8r-czB15e4z_"> </p>
+<p align="center"><img width="250" src="https://lh6.googleusercontent.com/k6RUMAW9nDrv_S5Gbqlux1VQB_gpNSP4BSQ391jDVplBgXjjB-52uxep7EbIL2Qj3f_Cs6DjVhVlSpjURFvH7quDSFO57LZJvlvKIYhjthhUWZjWlGtSvi5v-sqP8r-czB15e4z_"> </p>
 
 
 **1.  Create New Room**
@@ -124,7 +124,7 @@ The program present an initial screen with the choice between two options:
 
 Master and User Views in Hiraku:
 
-<p align="center"><img src=" https://lh4.googleusercontent.com/UKWIDKGrpkEkTz_LbH3ZIPXHvw3YkRKysyOgV9-r-s8pdYNhdxeN48PnvG0BaoP3nVrW-tkucDl-lqpNJdclVkWYNJq0tOxyj3x0FOf0a2WDcEIr3ki9FRQlTgNfBtY1nMWz7Mcd "></p>
+<p align="center"><img width="250" src=" https://lh4.googleusercontent.com/UKWIDKGrpkEkTz_LbH3ZIPXHvw3YkRKysyOgV9-r-s8pdYNhdxeN48PnvG0BaoP3nVrW-tkucDl-lqpNJdclVkWYNJq0tOxyj3x0FOf0a2WDcEIr3ki9FRQlTgNfBtY1nMWz7Mcd "></p>
 
 # Concept of Musical Message
 
