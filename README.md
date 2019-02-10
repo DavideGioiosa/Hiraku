@@ -170,11 +170,11 @@ Instruments are imported from WebAudioFont library except for the Oscillator tha
 
   
 
-# Registrazioni master, bank locali, metronomo, Worker 
+# Master records, local banks, metronome, Worker 
 
 The “REC” button starts a registration. The length of a registration is equal to the length of the selected loop and it starts at the beginning of the loop. The registration is sent to the master and saved in one of four record Banks, the one that is selected. 
 
-<p align="center"><img src="https://lh5.googleusercontent.com/Qli01iTaMMH_1eZZYdPV3w4f7nHxWmZMSQRX7ifT9t45m8evIMI1S0gKFdALp6ydoGGK_Co5nSnZu16rpRDs_Ra0NY7FY4WyKVhJsYWVFeQQEWH3sxdDOun309TYE5eoCFX_-hDj =200x"></p>
+<p align="center"><img src="https://lh5.googleusercontent.com/Qli01iTaMMH_1eZZYdPV3w4f7nHxWmZMSQRX7ifT9t45m8evIMI1S0gKFdALp6ydoGGK_Co5nSnZu16rpRDs_Ra0NY7FY4WyKVhJsYWVFeQQEWH3sxdDOun309TYE5eoCFX_-hDj"></p>
 
 You can listen your registration with the “PLAY” button or overwritten it with a new registration on the same record Bank. A recorded message is modeled with an array of objects having a structure “note, frequency, duration”.
 
@@ -265,9 +265,9 @@ After setting the number of iterations that the algorithm will do into the MC, c
 > In the graphics is showed the Markov Chain structure implemented into the program: is based on the first level on a probabilistic choice between notes grades sequences - in the first picture every arc that starts from a Note Grade has his own probability, and the sum of all the probabilities arcs that starts from that note is 1. Then there are further levels on the other informations explained before, such as duration, pauses and octaves changes, with their own probabilities. Having this structure the bot riff generator receives the number of iterations to make into the structure creating a musical message based on all the previous MM received by the user. The result is that the master can have an infinite message-generator that can be used to improve his live performance, in addition to the message that can receive from other users.
 
   
-<p align="center"><img src="https://lh5.googleusercontent.com/MkgY5njXG3NrecbJiOGFPATL9-k2reYyTVWjhbXxK6pM7KcwnqJ7KJ5gFFzExxOZHp7lnDA1XEb5mjLvjIj4aBwdzsth-xpuppYcQedIaLzAMiqOKXPFtZULptX24BLjLxAVfUQj"></p>  
+<p align="center"><img width="400" src="https://lh5.googleusercontent.com/MkgY5njXG3NrecbJiOGFPATL9-k2reYyTVWjhbXxK6pM7KcwnqJ7KJ5gFFzExxOZHp7lnDA1XEb5mjLvjIj4aBwdzsth-xpuppYcQedIaLzAMiqOKXPFtZULptX24BLjLxAVfUQj"></p>  
 
-<p align="center"><img src="https://lh3.googleusercontent.com/QcQLNhCvknfdkEgsbX_fFBF-1sl1HOHKfpGQp9dI8GZeniMiq88qNXViH-09xOyEz6N0XtfpQskmIBD4qsiVwpv0hI1RpjQUmeCCgW0Z7MA9tb0lyV7h3ApDIwF7zzFVtKWYYGP5"></p>
+<p align="center"><img width="400" src="https://lh3.googleusercontent.com/QcQLNhCvknfdkEgsbX_fFBF-1sl1HOHKfpGQp9dI8GZeniMiq88qNXViH-09xOyEz6N0XtfpQskmIBD4qsiVwpv0hI1RpjQUmeCCgW0Z7MA9tb0lyV7h3ApDIwF7zzFVtKWYYGP5"></p>
   
   
 
