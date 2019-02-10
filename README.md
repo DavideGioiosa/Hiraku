@@ -142,7 +142,7 @@ This bar represents the length of a loop, expressed in pulses. The squares turn 
 
 Loops have been created with FL Studio and some VST. They are stored in a Dropbox account and, when one of them is selected, it will be decoded in an audio buffer ready to be played. The attribute “loop” is setted true in order to obtain a “loop” effect.
 
-<p align="center">![](https://lh3.googleusercontent.com/iC3qm1lE_y_uaTwaBStZj597GSv_RpLvCe9zC0fZzqH6kbxa36fo54153q-4oK3udlsMissdDSjp83pvEQnF4sc1H5UR1u6Y4TzungDBSady0QWZT_P9UkCPaZM0vXuRF9mOKeFd)</p>
+<p align="center"><img width="250" "https://lh3.googleusercontent.com/iC3qm1lE_y_uaTwaBStZj597GSv_RpLvCe9zC0fZzqH6kbxa36fo54153q-4oK3udlsMissdDSjp83pvEQnF4sc1H5UR1u6Y4TzungDBSady0QWZT_P9UkCPaZM0vXuRF9mOKeFd"></p>
   
 >FL Studio / VST links  
 [https://www.image-line.com/flstudio/  
@@ -206,9 +206,9 @@ Subsequently, we decided to create an audio type Blob from a recorded message (s
 
 When room’s master or an user logged into the room completes the creation of a musical message on the selected loop, the MM is send directly on the database and received in realtime by the master, that is listening on database room’s updates. The operations are notified in the application with notifications (which will be discussed later). Once received, the musical messages are decoding by the translation algorithm and ready to be played.
 
-<p align="center"><img src="https://lh6.googleusercontent.com/0w7LIXaA_lD6cBrkH3A-PnOMce0fVVcr6vTjbUTPSMHTE-3I9gog6sn71rEb9MyWAiKXFi8U4za1oEWwH7MrgWzjAE-l2zGf-KxyWtsBmK38hwmnk96jHARxllAEw9_Tt7xBJSrX"></p>
+<p align="center"><img width="200" src="https://lh6.googleusercontent.com/0w7LIXaA_lD6cBrkH3A-PnOMce0fVVcr6vTjbUTPSMHTE-3I9gog6sn71rEb9MyWAiKXFi8U4za1oEWwH7MrgWzjAE-l2zGf-KxyWtsBmK38hwmnk96jHARxllAEw9_Tt7xBJSrX"></p>
   
-<p align="center"><img src="https://lh5.googleusercontent.com/Y2zboznIMeteVWcrrNmdmCW9t-annDcEjpH074IKfq9gvKFIBnrif8UriisuAVKawfEcgVq4VVoIRe-JiKbmgtlgHXqe4LGFqLbk2YSUp_a1L4hhR8HEYAi3xDy8fmzt0qIRmBCA"></p>
+<p align="center"><img width="200" src="https://lh5.googleusercontent.com/Y2zboznIMeteVWcrrNmdmCW9t-annDcEjpH074IKfq9gvKFIBnrif8UriisuAVKawfEcgVq4VVoIRe-JiKbmgtlgHXqe4LGFqLbk2YSUp_a1L4hhR8HEYAi3xDy8fmzt0qIRmBCA"></p>
 
   
   
