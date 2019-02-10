@@ -217,7 +217,7 @@ When room’s master or an user logged into the room completes the creation of a
 
 As mentioned in a previous paragraph, Room’s Master have also the possibility to send a musical message created to a global database container. This operation will permit to every other master of other rooms to get and play the global uploaded MM. In fact in the panel controls of the room exists the database’s Global Messages Area: the user inserts the username of the owner of the message that wants to load in the application, choose the bank where the message was stored (one of four) related to the account searched, loads it and then the MM can be played applying the decoding and translation algorithm. This function allows a global communication channel between users with the use of MM.
 
-<p align="center"><img width="400" src="https://lh6.googleusercontent.com/2CiemG7yRYjMOjH5f9XwQ2CFhSG7Glu2eWzKpV3cMhsJA2ahY9fYBXc8552dRzGsP_qdcBUU1KvcxwGTmzbaORIqgmiL-shQMHfPfG-eg_g8MLJ8C3D5AMdoZDnz67KJREhcBTAu"></p>
+<p align="center"><img width="300" src="https://lh6.googleusercontent.com/2CiemG7yRYjMOjH5f9XwQ2CFhSG7Glu2eWzKpV3cMhsJA2ahY9fYBXc8552dRzGsP_qdcBUU1KvcxwGTmzbaORIqgmiL-shQMHfPfG-eg_g8MLJ8C3D5AMdoZDnz67KJREhcBTAu"></p>
   
 
 # Blob-mp3 of MM Received
@@ -238,7 +238,7 @@ This operation provides to create an audio with all the MM that will be played s
 
 This conversion of messages adds a new feature to the web-app, that is the possibility to download the performed message in mp3 format (using audio/mpeg conversion in blob), allowing the use of the records also outside the application.
 
-<p align="center"><img src="https://lh4.googleusercontent.com/-OjxrJRCQi-uLNR0gpe_2Ky03C0sYx4sERzK9LyJBlI5KR995VoRpdhgbm7UdAIJXDAx6MP2EC-uEh0IPSB0VDw-XNcOLo-Nnv-MzySuzkvuwHRnv4BSBJYg4HVfi-5byBq0zbd_"></p>
+<p align="center"><img width="250" src="https://lh4.googleusercontent.com/-OjxrJRCQi-uLNR0gpe_2Ky03C0sYx4sERzK9LyJBlI5KR995VoRpdhgbm7UdAIJXDAx6MP2EC-uEh0IPSB0VDw-XNcOLo-Nnv-MzySuzkvuwHRnv4BSBJYg4HVfi-5byBq0zbd_"></p>
 
 # Play loop synchronized with MM received
 
@@ -275,7 +275,7 @@ After setting the number of iterations that the algorithm will do into the MC, c
 
 A further feature of Hiraku is the possibility to share the MM created on Twitter in a text-version format clicking on the button on the top right of the keyboard.
 
-<p align="center"><img  width="350" src="https://lh5.googleusercontent.com/fpsmQNBHWy8mxvtHzcsrZzR_8A4Px_28lhNGsCeGayn46U7gAexw5vPrcpfQIEqYsP_0k04ydok9iZMqrD9tCtaPsHpnOuvEL233kYpvcNZDIiaDGC1MIb-VzSL76sUCgSq6eQn4"></p>
+<p align="center"><img  width="300" src="https://lh5.googleusercontent.com/fpsmQNBHWy8mxvtHzcsrZzR_8A4Px_28lhNGsCeGayn46U7gAexw5vPrcpfQIEqYsP_0k04ydok9iZMqrD9tCtaPsHpnOuvEL233kYpvcNZDIiaDGC1MIb-VzSL76sUCgSq6eQn4"></p>
   
 
 
