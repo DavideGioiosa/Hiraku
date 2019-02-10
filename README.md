@@ -275,7 +275,7 @@ After setting the number of iterations that the algorithm will do into the MC, c
 
 A further feature of Hiraku is the possibility to share the MM created on Twitter in a text-version format clicking on the button on the top right of the keyboard.
 
-<p align="center"><img  width="300" src="https://lh5.googleusercontent.com/fpsmQNBHWy8mxvtHzcsrZzR_8A4Px_28lhNGsCeGayn46U7gAexw5vPrcpfQIEqYsP_0k04ydok9iZMqrD9tCtaPsHpnOuvEL233kYpvcNZDIiaDGC1MIb-VzSL76sUCgSq6eQn4"></p>
+<p align="center"><img width="300" src="https://lh5.googleusercontent.com/fpsmQNBHWy8mxvtHzcsrZzR_8A4Px_28lhNGsCeGayn46U7gAexw5vPrcpfQIEqYsP_0k04ydok9iZMqrD9tCtaPsHpnOuvEL233kYpvcNZDIiaDGC1MIb-VzSL76sUCgSq6eQn4"></p>
   
 
 
@@ -283,7 +283,7 @@ In fact after the creation and submission of the message played on the keyboard,
 
 This feature permits to store into Twitter timeline all the messages received in a session, creating a memory record of the performance.
 
-<p align="center"><img src="https://lh3.googleusercontent.com/eWehKYuluwympcNXOKHsMMtSoN0Opgq-B2xR0Xgz2d1eHrFDS72z7oyRMmFDi9wM0xqJMzAqTYEggkOADmJfD5x08dRbOMoaVmaZy_loH0nv4hIcMS7IYZUepbF9xPa7uaSNpLwH"></p>
+<p align="center"><img width="300" src="https://lh3.googleusercontent.com/eWehKYuluwympcNXOKHsMMtSoN0Opgq-B2xR0Xgz2d1eHrFDS72z7oyRMmFDi9wM0xqJMzAqTYEggkOADmJfD5x08dRbOMoaVmaZy_loH0nv4hIcMS7IYZUepbF9xPa7uaSNpLwH"></p>
 
 >Furthermore this option was designed to allow the possibility to send a MM for a master without using the Hiraku application directly. In fact an user could send a text message on Twitter with a final hashtag #hiraku and through the use of a python program running on a room master computer, the owner of a room can receive MM also in this format. At the moment the python is completed, and then this conversion feature will be one of the future updates of the program.
 
