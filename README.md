@@ -25,7 +25,7 @@ The project was entirely realized by Davide Gioiosa and Davide Dal Cortivo, grad
 
 # Goals
 
-Have you ever thought about join a live performance with an artist adding in a song the riff that you have in mind? Or take part of a session in another part of the word sending your ideas?
+Have you ever thought about join a live performance with an artist adding in a song the riff that you have in mind? Or take part of a session in another part of the world sending your ideas?
 
 HIRAKU, is a project created and based on the idea of communication with music through the use of internet. Started from a first idea of Davide Gioiosa, **HIRAKU (開曲)** means open melody or open composition, representing the idea music creation with shared ideas. It has been developed by a team of two members: **Davide Gioiosa** and **Davide Dal Cortivo**.
 
