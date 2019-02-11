@@ -300,6 +300,9 @@ Our next goal is to extend the program with other ideas that we have in mind, an
 
   
  > Project Link: [http://hiraku.surge.sh/](http://hiraku.surge.sh/) 
+ 
+ Try it in full screen mode!
+ 
 
 The Hiraku project team,
 
