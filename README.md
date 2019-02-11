@@ -306,6 +306,6 @@ Our next goal is to extend the program with other ideas that we have in mind, an
 
 The Hiraku project team,
 
-**Davide Gioiosa**
+**Davide Gioiosa** 	davide.gioiosa@mail.polimi.it
 
-**Davide Dal Cortivo**
+**Davide Dal Cortivo** davide.dalcortivo@mail.polimi.it
