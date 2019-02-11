@@ -124,7 +124,7 @@ The program present an initial screen with the choice between two options:
 
 Master and User Views in Hiraku:
 
-<p align="center"><img width="450" src="https://lh4.googleusercontent.com/UKWIDKGrpkEkTz_LbH3ZIPXHvw3YkRKysyOgV9-r-s8pdYNhdxeN48PnvG0BaoP3nVrW-tkucDl-lqpNJdclVkWYNJq0tOxyj3x0FOf0a2WDcEIr3ki9FRQlTgNfBtY1nMWz7Mcd"></p>
+<p align="center"><img width="550" src="https://lh4.googleusercontent.com/UKWIDKGrpkEkTz_LbH3ZIPXHvw3YkRKysyOgV9-r-s8pdYNhdxeN48PnvG0BaoP3nVrW-tkucDl-lqpNJdclVkWYNJq0tOxyj3x0FOf0a2WDcEIr3ki9FRQlTgNfBtY1nMWz7Mcd"></p>
 
 # Concept of Musical Message
 
