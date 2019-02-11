@@ -303,6 +303,9 @@ Our next goal is to extend the program with other ideas that we have in mind, an
  
  Try it in full screen mode!
  
+ 
+ 
+ 
 
 The Hiraku project team,
 
