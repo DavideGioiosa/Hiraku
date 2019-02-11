@@ -142,7 +142,7 @@ This bar represents the length of a loop, expressed in pulses. The squares turn 
 
 Loops have been created with FL Studio and some VST. They are stored in a Dropbox account and, when one of them is selected, it will be decoded in an audio buffer ready to be played. The attribute “loop” is setted true in order to obtain a “loop” effect.
 
-<p align="center"><img width="250" "https://lh3.googleusercontent.com/iC3qm1lE_y_uaTwaBStZj597GSv_RpLvCe9zC0fZzqH6kbxa36fo54153q-4oK3udlsMissdDSjp83pvEQnF4sc1H5UR1u6Y4TzungDBSady0QWZT_P9UkCPaZM0vXuRF9mOKeFd"></p>
+<p align="center"><img width="250" src="https://lh3.googleusercontent.com/iC3qm1lE_y_uaTwaBStZj597GSv_RpLvCe9zC0fZzqH6kbxa36fo54153q-4oK3udlsMissdDSjp83pvEQnF4sc1H5UR1u6Y4TzungDBSady0QWZT_P9UkCPaZM0vXuRF9mOKeFd"></p>
   
 >FL Studio / VST links  
 [https://www.image-line.com/flstudio/  
