@@ -149,7 +149,6 @@ Loops have been created with FL Studio and some VST. They are stored in a Dropbo
 ](https://www.image-line.com/flstudio/)[https://refx.com/  
 ](https://refx.com/)https://www.native-instruments.com/en/products/komplete/samplers/kontakt-6/  
   
-
 A loop contains a lot of information saved on Firebase (duration, tonality, time signature, bpm etc…). This information is very important, because it modifies several aspects in the program such as the progress bar.
 
 This program isn’t designed only for musicians, so the tonality of a loop puts restrictions on playable notes. This is to limit wrong notes during a registration on a particular loop. If you are a musician don’t worry, you can switch to “PRO” mode and all notes will be available again.
