@@ -301,8 +301,6 @@ Our next goal is to extend the program with other ideas that we have in mind, an
   
  > Project Link: [http://hiraku.surge.sh/](http://hiraku.surge.sh/)
  
- > Introduction Video: [https://youtu.be/SxgZyMuagbQ](https://youtu.be/SxgZyMuagbQ)
- 
  Try it in full screen mode!
  
  
